@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="_field" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#handle" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="a11_107403527.PlaneController">
+   <children>
+      <Label fx:id="_plane" layoutX="89.0" layoutY="153.0" prefHeight="81.0" prefWidth="106.0" text="&#9;  //(|&gt;&#10;(X==&lt;(==&gt;&#10;&#9;  \\|&gt;" />
+      <Label fx:id="_bullet" layoutX="202.0" layoutY="186.0" text="x==&gt;x==&gt;x==&gt;" visible="false" />
+   </children>
+</Pane>

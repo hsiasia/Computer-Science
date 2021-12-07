@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="a9_107403527.Controller">
+
+   <children>
+      <CheckBox fx:id="Check" layoutX="217.0" layoutY="294.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="168.0" text="Check?">
+         <font>
+            <Font size="15.0" />
+         </font></CheckBox>
+      <Button fx:id="Press3" layoutX="269.0" layoutY="347.0" mnemonicParsing="false" onAction="#Press3" prefHeight="29.0" prefWidth="61.0" text="Press3" />
+      <RadioButton fx:id="A" layoutX="217.0" layoutY="171.0" mnemonicParsing="false" text="A" toggleGroup="$YESNO">
+         <toggleGroup>
+            <ToggleGroup fx:id="YESNO" />
+         </toggleGroup>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="B" layoutX="330.0" layoutY="171.0" mnemonicParsing="false" text="B" toggleGroup="$YESNO">
+         <font>
+            <Font size="15.0" />
+         </font></RadioButton>
+      <Button fx:id="Press1" layoutX="270.0" layoutY="95.0" mnemonicParsing="false" onAction="#Press1" prefHeight="29.0" prefWidth="61.0" text="Press1" />
+      <Button fx:id="Press2" layoutX="270.0" layoutY="223.0" mnemonicParsing="false" onAction="#Press2" prefHeight="29.0" prefWidth="61.0" text="Press2" />
+      <TextField fx:id="text" layoutX="222.0" layoutY="31.0" />
+   </children>
+</Pane>
